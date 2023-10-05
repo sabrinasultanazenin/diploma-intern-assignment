@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <!--css source link-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/jquery-confirm.min.css">
+  </head>
+  <body>
+
+    <!--main code-->
+    <div class="container">
+      <div class="card mt-5 mb-5">
+        <p class=" text-center bangla-text fs-2 pt-3">রেজিস্ট্রেশন করুন</p>
+        <div class="card-body">
+        <form class="row g-3 p-1  text-start needs-validation" novalidate method="post" action="#">
+
+        <!--part-1-->
+        <div class="col-lg-4 ">
+          <label><span class="text-danger ">*</span> Name </label></br>
+          <input type="text" required class="form-control  False">
+        </div>
+        <div class="col-lg-4 ">
+          <label><span class="text-danger me-1">*</span> Mobile </label></br>
+          <input type="tel" required class="form-control  False">
+        </div>
+        <div class="col-lg-4 ">
+          <label>Password </label></br>
+          <input type="password"  class="form-control  False">
+        </div>
+
+        <!--part-2-->
+        <div class="col-lg-4 ">
+          <label></span> Email </label></br>
+          <input type="email"  class="form-control  False">
+        </div>
+        <div class="col-lg-4 ">
+          <label></span> Emergency Contact </label></br>
+          <input type="tel"  class="form-control  False">
+        </div>
+        <div class="col-lg-4 ">
+          <label><span class="text-danger me-1 ">*</span> Home District </label></br>
+          <select required class="form-select searchable-select False ">
+            <option>Select</option> <option>Gaibandha</option> <option>Sherpur</option>
+            <option>Netrakona</option> <option>Mymensingh</option> <option>Jamalpur</option>
+            <option>Sylhet</option> <option>Sunamganj</option> <option>Moulvibazar</option>
+            <option>Habiganj</option> <option>Thakurgaon</option> <option>Rangpur</option>
+            <option>Panchagarh</option> <option>Nilphamari</option> <option>Lalmonirhat</option>
+            <option>Kurigram</option> <option>Dinajpur</option> <option>Sirajganj</option>
+            <option>Rajshahi</option> <option>Pabna</option> <option>Chapainababganj</option>
+            <option>Natore</option> <option>Joypurhat</option> <option>Bogura</option>
+            <option>Narail</option> <option>Naogaon</option> <option>Satkhira</option>
+            <option>Meherpur</option> <option>Magura</option> <option>Kushtia</option>
+            <option>Khulna</option> <option>Jhenaidah</option> <option>Jashore</option>
+            <option>Chuadanga</option> <option>Bagerhat</option> <option>Tangail</option>
+            <option>Shariatpur</option> <option>Rajbari</option> <option>Narsingdi</option>
+            <option>Narayanganj</option> <option>Munshiganj</option> <option>Manikganj</option>
+            <option>Madaripur</option> <option>Kishoreganj</option> <option>Gopalganj</option>
+            <option>Gazipur</option> <option>Faridpur</option> <option>Dhaka</option>
+            <option>Rangamati</option> <option>Lakshmipur</option> <option>Khagrachhari</option>
+            <option>Feni</option> <option>Cox&#39;s bazar</option> <option>Cumilla</option>
+            <option>Chattogram</option><option>Chandpur</option> <option>Brahmanbaria</option>
+            <option>Bandarban</option> <option>Patuakhali</option> <option>Pirojpur</option>
+            <option>Jhalokati</option>Bhola <option>Barguna</option> <option>Barishal</option>
+          </select>
+        </div>
+
+        <!--part-3-->
+        <div class="col-lg-6 ">
+          <label>Study In (Diploma Engineering)</label></br>
+          <input type="text"  class="form-control  False">
+        </div>
+        <div class="col-lg-6 ">
+          <label>Institute Name</label></br>
+          <input type="text"  class="form-control  False">
+        </div>
+
+        <!--part-4-->
+      <div class="col-lg-4 ">
+        <label> Technology </label></br>
+        <select  class="form-select searchable-select False">
+          <option>Select</option> <option>Computer</option> <option>Electronics</option>
+          <option>Eletrical</option> <option>Mechanical</option> <option>Civil</option>
+        </select>
+      </div>
+      <div class="col-lg-4 ">
+        <label>Semester (8th)</label></br>
+        <input type="text"  class="form-control  False">
+      </div>
+      <div class="col-lg-4 ">
+        <label> Shift </label></br>
+        <select  class="form-select searchable-select False">
+          <option>Select</option> <option>First</option> <option>Second</option>
+          <option>NotApplicable</option>
+        </select>
+      </div>
+
+      <!--part-5-->
+      <div class="col-lg-6 ">
+        <label>Present Address</label></br>
+        <textarea  class="form-control  False"></textarea>
+      </div>
+      <div class="col-lg-6 ">
+        <label>Permanent Address</label></br>
+        <textarea  class="form-control  False"></textarea>
+      </div>
+
+      <!--part-6-->
+      <div class="col-lg-12 ">
+        <label>Comment</label></br>
+        <textarea  class="form-control  False"></textarea>
+      </div>
+
+      <!--part-6-button-->
+      <div class="text-center bangla-text">
+        <button class="btn btn-primary needs-validation" type="submit">রেজিস্ট্রেশন</button>
+        <a href="#" class="btn btn-secondary delete-confirm" type="button">লগ ইন</a>
+    </div>
+    </form>
+    </div>
+  </div>
+  </div>
+
+    <!--js source link-->
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/pweb.message.box.js"></script>
+    <script src="../assets/js/jquery-confirm.min.css"></script>
+    <script src="../assets/js/jquery-confirm.min.js"></script>
+    <script src="../assets/js/bootstrap-form-validator.js"></script>
+
+    <!--js validation-->
+    <script>
+        jQuery(document).ready(function () {
+            let forms = document.querySelectorAll('.needs-validation')
+            let form = forms[0]
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                } else {
+                    PWeb.messageBox.showMessage(true, "Your Registration Success")
+                    form.reset()
+                    event.preventDefault()
+                    event.stopPropagation()
+                    return false
+                }
+                form.classList.add('was-validated')
+            }, false)
+        });
+    </script>
+    
+    <!--js confirmation box-->
+    <script>
+      jQuery(document).ready(function () {
+          jQuery(".delete-confirm").confirm({
+              title: 'Confirmation!',
+              content: 'Are you sure want to delete?'
+          })
+      });
+    </script>
+  </body>
+</html>
